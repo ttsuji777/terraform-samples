@@ -7,4 +7,4 @@ pool_port        = "80"                      // Port Number
 service_name     = "svc.namespace"           // Service Name
 vsite_name       = "vsite"                   // Name of Virtual Site
 httplb_name      = "httplb"                  // Name of HTTP LoadBalancer
-mydomain         = ["host.namespace.domain"] // domain name to be exposed
+mydomain         = ["host.namespace.domain"] // Domain name to be exposed
