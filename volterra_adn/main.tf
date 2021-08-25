@@ -4,7 +4,7 @@ variable "healthcheck_name" {}
 variable "myns" {}
 variable "op_name" {}
 variable "pool_port" {}
-variable "service_name" {}
+variable "k8s_svc_name" {}
 variable "vsite_name" {}
 variable "httplb_name" {}
 variable "mydomain" {}
