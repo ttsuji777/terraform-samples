@@ -51,7 +51,7 @@ resource "volterra_origin_pool" "this" {
   }
   origin_servers {
     k8s_service {
-      service_name  = var.service_name
+      service_name  = "${var.k8s_svc_name}.${var.myns}"
       vk8s_networks = true
       site_locator {
         virtual_site {
